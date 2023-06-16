@@ -39,7 +39,7 @@ const Hero = () => {
             featured.map(({id, tag, title, author}) => (
               <div key={id} className='h-[250px] bg-white mt-10 lg:mr-10 rounded-lg p-5 flex gap-5'>
               <div className='img bg-gray-400 min-w-[45%] sm:min-w-[200px] md:min-w-[250px] lg:min-w-[300px] w-1/2 h-full rounded-lg'>
-                <img className='w-full h-full object-cover' src="/assets/javascript.jpg" alt="code image" />
+                <img className='w-full h-full object-cover' src="/assets/javascript.jpg" alt="code" />
               </div>
               <div className='content'>
                 <span className='tag bg-green-50 text-xs py-1 px-3 rounded-lg'>
@@ -76,7 +76,7 @@ const Hero = () => {
             currentData.map(({id, tag, title, author}) => (
               <div key={id} className='h-[115px] mt-10 rounded-lg flex gap-5'>
               <div className='img min-w-[150px] w-1/2 h-full rounded-lg bg-gray-400'>
-              <img className='w-full h-full object-cover' src="/assets/blog-img.jpg" alt="laptop image" />
+              <img className='w-full h-full object-cover' src="/assets/blog-img.jpg" alt="laptop" />
               </div>
               <div className='content'>
                 <span className='tag bg-green-50 text-xs py-1 px-3 rounded-lg'>

@@ -45,7 +45,7 @@ const Blog = () => {
                 key={id}
                 className=' bg-white mt-10 rounded-lg flex flex-col gap-5'>
                 <div className='img bg-gray-400 w-full h-[260px] rounded-lg'>
-                <img className='w-full h-full rounded-lg object-cover' src="/assets/scenery.jpg" alt="scenery image" />
+                <img className='w-full h-full rounded-lg object-cover' src="/assets/scenery.jpg" alt="scenery" />
                 </div>
                 <div className='content'>
                   <span className='tag bg-green-50 text-xs py-1 px-3 rounded-lg'>
@@ -102,7 +102,7 @@ const Blog = () => {
           {authors.map(({ id, name, hobbies }) => (
             <div key={id} className='flex items-center gap-8 mt-10'>
               <div className='image w-20 h-20 bg-gray-400 rounded-full'>
-                <img className='w-full h-full rounded-full object-cover' src="/assets/jessica.jpg" alt="author image" />
+                <img className='w-full h-full rounded-full object-cover' src="/assets/jessica.jpg" alt="author" />
               </div>
               <div className='content max-w-[50%] space-y-2'>
                 <div className='name font-semibold text-[17px]'>{name}</div>
